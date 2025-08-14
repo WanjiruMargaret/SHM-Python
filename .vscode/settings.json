@@ -2,13 +2,19 @@
     "sqltools.connections": [
         {
             "previewLimit": 50,
-            "server": "localhost",
-            "port": 6543,
+            "driver": "SQLite",
+            "name": "my_first_db",
+            "database": "${workspaceFolder:SHM-Python}/dbs/sqlite     "
+        },
+        {
+            "previewLimit": 50,
+            "server": "aws-1-ca-central-1.pooler.supabase.com",
+            "port": 5432,
             "driver": "PostgreSQL",
+            "name": "Shm_connection",
             "database": "postgres",
-            "password": "maggie177.",
-            "username": "postgres.hijtaynpzvglokmeotlx",
-            "name": "aws-1-ca-central-1.pooler.supabase.com"
+            "username": "postgres.lpwoghnqcukxvfrmckpi",
+            "password": "kJCPsgJn0jnJ66AY"
         }
     ]
 }
