@@ -3,18 +3,19 @@
         {
             "previewLimit": 50,
             "driver": "SQLite",
-            "name": "my_first_db",
-            "database": "${workspaceFolder:SHM-Python}/dbs/sqlite     "
+            "name": "my second trial",
+            "database": "${workspaceFolder:SHM-Python}/dbs/sqlite/db.db"
         },
         {
             "previewLimit": 50,
             "server": "aws-1-ca-central-1.pooler.supabase.com",
             "port": 5432,
             "driver": "PostgreSQL",
-            "name": "Shm_connection",
+            "name": "trial 2",
             "database": "postgres",
             "username": "postgres.lpwoghnqcukxvfrmckpi",
-            "password": "kJCPsgJn0jnJ66AY"
+            "password": "5Jqvfx2brqprQ7qc"
         }
-    ]
+    ],
+    "sqltools.useNodeRuntime": true
 }

@@ -1,1 +1,1 @@
-DROP TABLE mwanafunzi,mzazi,parent,student
+DROP TABLE mwanafunzi,mzazi
