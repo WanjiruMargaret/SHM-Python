@@ -1,0 +1,1 @@
+DROP TABLE mwanafunzi,mzazi,parent,student
