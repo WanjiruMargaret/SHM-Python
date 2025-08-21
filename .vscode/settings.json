@@ -15,6 +15,12 @@
             "database": "postgres",
             "username": "postgres.lpwoghnqcukxvfrmckpi",
             "password": "5Jqvfx2brqprQ7qc"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "database ",
+            "database": "${workspaceFolder:SHM-Python}/orm/lite.db"
         }
     ],
     "sqltools.useNodeRuntime": true
